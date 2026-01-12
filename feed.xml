@@ -3,36 +3,108 @@
     <title>Lycus Ledger</title>
     <link href="https://lycusledger.com/feed.xml" rel="self" />
     <link href="https://lycusledger.com" />
-    <updated>2026-01-09T19:28:55-05:00</updated>
+    <updated>2026-01-11T19:10:48-05:00</updated>
     <author>
         <name>Gato</name>
     </author>
     <id>https://lycusledger.com</id>
 
     <entry>
-        <title>TEst</title>
+        <title>Test</title>
         <author>
             <name>Gato</name>
         </author>
-        <link href="https://lycusledger.com/test.html"/>
-        <id>https://lycusledger.com/test.html</id>
+        <link href="https://lycusledger.com/test/"/>
+        <id>https://lycusledger.com/test/</id>
+        <media:content url="https://lycusledger.com/media/posts/1/Eurasian_wolf_2.jpg" medium="image" />
 
-        <updated>2026-01-09T19:28:51-05:00</updated>
+        <updated>2026-01-11T19:04:00-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    fefe efefe
+                        <img src="https://lycusledger.com/media/posts/1/Eurasian_wolf_2.jpg" alt="" />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://lycusledger.com/media/posts/1/Eurasian_wolf_2.jpg" class="type:primaryImage" alt="" /></p>
                 
-  <p>
-    fefe
-  </p>
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://lycusledger.com/media/posts/1/Eurasian_wolf_2-2.jpg" height="2664" width="3440" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-xs.jpg 640w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-sm.jpg 768w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-md.jpg 1024w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-lg.jpg 1366w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-xl.jpg 1600w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-2xl.jpg 1920w">
+      
+    </figure>
 
   <p>
-    efefe
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
+<div><style>
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+</style>
+<h4>Share article:</h4>
+<center>
+<button onclick="copyURL()">Copy link</button>
+<div id="snackbar">Link copied!</div>
+<script>
+function copyURL() {
+ let url = document.location.href
+navigator.clipboard.writeText(url).then(function() {
+    console.log('Copied!');
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}, function() {
+    console.log('Copy error')
+});
+}
+</script>
+</center>
+<span></span>
+<br>
+<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-bce4f8ea-9bd1-4793-88bc-63467f850c33"></div></div>
             ]]>
         </content>
     </entry>

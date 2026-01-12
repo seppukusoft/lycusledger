@@ -5,7 +5,15 @@
 <loc>https://lycusledger.com/</loc>
 </url>
 <url>
-<loc>https://lycusledger.com/test.html</loc>
-<lastmod>2026-01-09T19:28:55-05:00</lastmod>
+<loc>https://lycusledger.com/test/</loc>
+<lastmod>2026-01-11T19:10:48-05:00</lastmod>
+<image:image>
+<image:loc>https://lycusledger.com/media/posts/1/Eurasian_wolf_2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://lycusledger.com/media/posts/1/Eurasian_wolf_2-2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 </urlset>

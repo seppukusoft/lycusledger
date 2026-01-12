@@ -11,18 +11,19 @@
     },
     "items": [
         {
-            "id": "https://lycusledger.com/test.html",
-            "url": "https://lycusledger.com/test.html",
-            "title": "TEst",
-            "summary": "fefe efefe",
-            "content_html": "\n  <p>\n    fefe\n  </p>\n\n  <p>\n    efefe\n  </p>",
+            "id": "https://lycusledger.com/test/",
+            "url": "https://lycusledger.com/test/",
+            "title": "Test",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit&hellip;",
+            "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://lycusledger.com/media/posts/1/Eurasian_wolf_2-2.jpg\" height=\"2664\" width=\"3440\" alt=\"\"  sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-xs.jpg 640w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-sm.jpg 768w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-md.jpg 1024w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-lg.jpg 1366w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-xl.jpg 1600w ,https://lycusledger.com/media/posts/1/responsive/Eurasian_wolf_2-2-2xl.jpg 1920w\">\n      \n    </figure>\n\n  <p>\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n  </p>\n<div><style>\n#snackbar {\n  visibility: hidden; /* Hidden by default. Visible on click */\n  min-width: 250px; /* Set a default minimum width */\n  margin-left: -125px; /* Divide value of min-width by 2 */\n  background-color: #333; /* Black background color */\n  color: #fff; /* White text color */\n  text-align: center; /* Centered text */\n  border-radius: 2px; /* Rounded borders */\n  padding: 16px; /* Padding */\n  position: fixed; /* Sit on top of the screen */\n  z-index: 1; /* Add a z-index if needed */\n  left: 50%; /* Center the snackbar */\n  bottom: 30px; /* 30px from the bottom */\n}\n\n/* Show the snackbar when clicking on a button (class added with JavaScript) */\n#snackbar.show {\n  visibility: visible; /* Show the snackbar */\n  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.\n  However, delay the fade out process for 2.5 seconds */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;\n  animation: fadein 0.5s, fadeout 0.5s 2.5s;\n}\n\n/* Animations to fade the snackbar in and out */\n@-webkit-keyframes fadein {\n  from {bottom: 0; opacity: 0;}\n  to {bottom: 30px; opacity: 1;}\n}\n\n@keyframes fadein {\n  from {bottom: 0; opacity: 0;}\n  to {bottom: 30px; opacity: 1;}\n}\n\n@-webkit-keyframes fadeout {\n  from {bottom: 30px; opacity: 1;}\n  to {bottom: 0; opacity: 0;}\n}\n\n@keyframes fadeout {\n  from {bottom: 30px; opacity: 1;}\n  to {bottom: 0; opacity: 0;}\n}\n</style>\n<h4>Share article:</h4>\n<center>\n<button onclick=\"copyURL()\">Copy link</button>\n<div id=\"snackbar\">Link copied!</div>\n<script>\nfunction copyURL() {\n let url = document.location.href\nnavigator.clipboard.writeText(url).then(function() {\n    console.log('Copied!');\n  var x = document.getElementById(\"snackbar\");\n  x.className = \"show\";\n  setTimeout(function(){ x.className = x.className.replace(\"show\", \"\"); }, 3000);\n}, function() {\n    console.log('Copy error')\n});\n}\n</script>\n</center>\n<span></span>\n<br>\n<script src=\"https://cdn.commoninja.com/sdk/latest/commonninja.js\" defer></script>\n<div class=\"commonninja_component pid-bce4f8ea-9bd1-4793-88bc-63467f850c33\"></div></div>",
+            "image": "https://lycusledger.com/media/posts/1/Eurasian_wolf_2.jpg",
             "author": {
                 "name": "Gato"
             },
             "tags": [
             ],
-            "date_published": "2026-01-09T19:28:51-05:00",
-            "date_modified": "2026-01-09T19:28:55-05:00"
+            "date_published": "2026-01-11T19:04:00-05:00",
+            "date_modified": "2026-01-11T19:10:48-05:00"
         }
     ]
 }
